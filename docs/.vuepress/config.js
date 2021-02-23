@@ -1,6 +1,9 @@
 const { description } = require('../../package')
 
 module.exports = {
+
+  base: "/vue-test/",
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -62,7 +65,5 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ],
-
-  base: "/vue-test/"
+  ]
 }
