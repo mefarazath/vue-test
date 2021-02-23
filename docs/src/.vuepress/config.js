@@ -21,8 +21,6 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  base: '/vue-test/',
-
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -66,5 +64,5 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
   ],
 
-  base: "vue-test"
+  base: "/vue-test/"
 }
