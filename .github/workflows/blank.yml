@@ -2,7 +2,7 @@ name: Deploy VuePress
 on: 
   push:
     branches:
-      - vue-test-deploy
+      - 'vue-test-deploy'
 
 jobs:
   build-and-deploy:
