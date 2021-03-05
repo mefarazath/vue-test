@@ -1,9 +1,5 @@
 name: Deploy VuePress
-on: 
-  push:
-    branches:
-      - 'vue-test-deploy'
-
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
